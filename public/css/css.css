@@ -1,0 +1,301 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+/* Halaman Pertama */
+
+.banner {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0,0,0,0.75)), url(/pertama.jpg);
+    background-size: cover;
+    background-position: center;}
+
+.navbar {
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 18px;
+    cursor: pointer;
+}
+
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+li a.contact {
+    background-color: #ecca31;
+    padding: 9px 20px;
+    border-radius: 50px;
+    transition: all 0.3s ease 0s;
+    border-bottom: none;
+  }
+  
+  li a.contact:hover {
+    background-color: #ecca31;
+    color: white;
+    border-bottom: none;
+  }
+
+.content{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #fff;
+}
+
+.content h1{
+    font-size: 70px;
+    margin-top: 80px;
+}
+
+.content p{
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;}
+
+button{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 12px;
+    font-weight: bold;
+    border: 2px solid #ecca31;
+    background-color: #ecca31;
+    cursor: pointer;
+}
+
+/* Halaman Kedua */
+
+.dua{
+    width: 100%;
+    height: 100vh;
+    background: url(/kedua.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+
+.tiga{
+    width: 100%;
+    height: 100vh;
+    background: url(/features.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.empat{
+    margin: 0%;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    background: url(/empat.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.text p{
+    font-size: 18px;
+    color: white;
+    position: absolute;
+    margin: auto;
+    left: 500px;
+    top: 40px;
+}
+.text h6{
+    font-size: 48px;
+    color: white;
+    position: absolute;
+    left: 60px;
+    top: 120px;
+}
+
+.table {
+    position: absolute;
+    color: white;
+    border-collapse: collapse;
+    top: 250px;
+    letter-spacing: 2px;
+    
+  }
+
+   
+
+.lima {
+    width: 100%;
+    height: 100vh;
+    background: url(/Rectangle.png);
+    background-color: rgb(29, 27, 27);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.score{
+    position: absolute;
+    left: 60px;
+    top: 200px;
+}
+.text1 {
+    padding: 18px;
+    background-color: grey;
+    height: 130px;
+    width: 300px;
+    position: relative;
+   border-radius: 12px;
+   }
+
+.text1{
+    position: absolute;
+    left: 800px;
+    top: 40px;
+}
+ 
+ .evan {
+   height: 50px;
+   width: 50px;
+   background-color: rgb(32, 117, 192);
+   border-radius: 50%;
+   background: url(/evan.jpg);
+ }
+ 
+ .text2 {
+    padding: 18px;
+    background-color: grey;
+    height: 130px;
+    width: 300px;
+    position: relative;
+   border-radius: 12px;
+   }
+
+.text2{
+    position: absolute;
+    left: 700px;
+    top: 220px;
+}
+ 
+ .jada {
+   height: 50px;
+   width: 50px;
+   background-color: rgb(32, 117, 192);
+   border-radius: 50%;
+   background: url(/jada.jpg);
+ }
+
+ .text3 {
+    padding: 18px;
+    background-color: grey;
+    height: 130px;
+    width: 300px;
+    position: relative;
+   border-radius: 12px;
+   }
+
+.text3{
+    position: absolute;
+    left: 760px;
+    top: 400px;
+}
+ 
+ .ron {
+   height: 50px;
+   width: 50px;
+   background-color: rgb(32, 117, 192);
+   border-radius: 50%;
+   background: url(/ron.jpg);
+ }
+
+.enam{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+footer {
+    padding: 40px 0;
+    background-color: black;
+    display: inline-block;
+}
+
+
+.footer .social{
+    text-align: center;
+    padding-bottom: 25px;
+    color: black
+}
+
+.footer .social a {
+    font-size: 24px;
+    color: inherit;
+    border: 1px solid rgb(51, 45, 45);
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 8px;
+    opacity: 0,75;
+}
+
+.footer .social a: :hover {
+    opacity: 0.9;
+}
+
+.footer ul  {
+    margin-top: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+    text-align: center ;
+}
+
+.footer ul li a {
+    color: inherit;
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+.footer ul li {
+    display: inline-block;
+    padding: 0 15px;
+}
+
+.footer ul li a: hover {
+    opacity: 1}
+
+
+.footer .copyright {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 12px;
+    color: #aaa
+}
